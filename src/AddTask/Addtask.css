@@ -1,0 +1,22 @@
+.Add-task input[type=text] {
+    width:85%;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    color: #ddd;
+    font-size: xx-large;
+    background-color: rgb(40,40,40);
+}
+
+.Add-task input[type=text]::placeholder {
+    color:red;
+    font-size: 18px;
+}
+
+.Add-task input[type=submit] {
+    background-color: rgb(40,40,40);
+    color: darkred;
+    font-size: 30px;
+    outline: none;
+    border: 4px solid rgb(40,40,40);
+}

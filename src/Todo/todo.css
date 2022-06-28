@@ -1,0 +1,71 @@
+.Todo .ol {
+    list-style: none;
+
+}
+.Todo li {
+    padding: 8px;
+    margin: 5px;
+    text-align: left;
+}
+.Todo li:hover {
+    cursor: pointer;
+}
+.Todo {
+    width:95%;
+}
+
+.Todo hr {
+    padding:0;
+    margin: 0;
+    margin-top:10px;
+}
+
+.Todo .completetask {
+    font-size: 20px;
+    color: green;
+    text-decoration: line-through;
+}
+
+.Todo .duetask {
+    font-size: 20px;
+    color: red;
+}
+
+.Todo .do {
+    height: 25px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.Todo .do:hover {
+    background-color: lightskyblue;
+}
+
+.Todo .cross {
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+}
+.Todo .cross:hover {
+    background-color: darkred;
+}
+
+.Todo .editTodo {
+    color:red;
+    font-size: 15px;
+    padding:0;
+    float:right;
+    background-color: rgb(40,40,40);
+    margin-right: -20px;
+}
+
+.Todo .editTodo::hover {
+    border:2px solid darkred;
+    cursor: pointer;
+    background-color: rgb(27,25,25);
+}
